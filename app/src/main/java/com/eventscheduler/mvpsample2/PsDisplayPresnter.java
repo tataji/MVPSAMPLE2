@@ -15,7 +15,6 @@ public class PsDisplayPresnter implements PsDisplayContract.PsPresenter{
       this.psDisplayRepository=psDisplayRepository;
       this.view=psDisplayFragment;
       this.view.setPresenter(this);
-
     }
 
     @Override

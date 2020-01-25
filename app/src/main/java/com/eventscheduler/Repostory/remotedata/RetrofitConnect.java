@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class RetrofitConnect {
 
     private static Retrofit retrofit;
-    private static String BASE_URL="http://166.62.122.144/LogicShore.svc/";
+    private static String BASE_URL="url";
     public static void init() {
 
         if (retrofit == null) {

@@ -9,6 +9,6 @@ public interface PsDisplayContract  {
 
     }
     interface PsPresenter extends BasePresenter{
-         public void getPsList();
+          void getPsList();
     }
 }
